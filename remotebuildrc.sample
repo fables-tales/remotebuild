@@ -1,0 +1,11 @@
+;rename me to .remotebuildrc, put remotebuild in your path/bashrc
+;watch as magic occurs
+
+[remotebuild]
+ssh_login = user@host
+; directory will default to your home folder, if you want to be absolute do
+; /path/to/thing
+remote_path = directory
+
+;the comand to compile your stuff with
+compile_command = echo bees
